@@ -58,6 +58,12 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); 
 }
 
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
 /* TODO: Add a hover state to .card. A small translateY(-2px) and a slightly
    larger box-shadow gives a nice "lift" effect. You will also need to add a
    transition to .card itself so the effect animates instead of snapping. */
@@ -189,11 +195,7 @@
   border: 1px solid #e8e4dc; 
   border-radius: 8px; 
   padding: 1.5rem; 
-  /* FIXME: this fixed height cuts off content if the text is long or the
-     browser font size is larger than expected. Remove height and overflow
-     so the element sizes itself naturally. */
-  height: 140px;
-  overflow: hidden;
+
 }
 
 .faq-item h3 {
