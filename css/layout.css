@@ -1,9 +1,7 @@
 /* layout.css - page structure and spacing */
 
 /* reset */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -12,8 +10,7 @@ body {
   padding: 0;
 }
 
-ul,
-ol {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -41,20 +38,6 @@ img {
 /* TODO: .container--narrow is supposed to be narrower than .container so
    that forms and text-heavy sections don't stretch too wide. Right now it
    is identical and does nothing. Give it a smaller max-width (around 680px). */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .wrapper {
   max-width: 800px;
