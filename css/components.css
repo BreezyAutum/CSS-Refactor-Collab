@@ -15,11 +15,12 @@
   cursor: pointer; 
   transition: background-color 200ms ease; 
 }
-
-/* TODO: .btn only transitions background-color. Add color and border-color to
-   the transition so changes animate smoothly. Also add a :focus-visible style
-   so keyboard users can see which button is focused — there is currently no
-   visible focus indicator on buttons. */
+.btn:focus {
+  outline: none;
+}
+.btn:focus-visible{
+  outline: 3px solid black;
+}
 
 .btn-primary {
   background-color: #7a1f3d; 
@@ -27,9 +28,9 @@
   border-color: #7a1f3d; 
 }
 
-.btn-primary: hover {
+.btn-primary:hover {
   background-color: #5a1530; 
-  border-color: #5a1530; 
+  border-color: #d73171; 
   color: #ffffff; 
 }
 
@@ -41,6 +42,7 @@
 
 .btn-secondary:hover {
   background-color: #7a1f3d; 
+  border-color: #d73171;
   color: #ffffff; 
 }
 
