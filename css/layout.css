@@ -28,12 +28,10 @@ img {
 }
 
 .container--narrow {
-  max-width: 1100px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
-
-/* TODO: .container--narrow is supposed to be narrower than .container so that forms and text-heavy sections don't stretch too wide. Right now it is identical and does nothing. Give it a smaller max-width (around 680px). */
 
 .wrapper {
   max-width: 800px;
@@ -49,7 +47,7 @@ img {
 /* --- header --- */
 
 .site-header {
-  background-color: #7a1f3d;
+  background-color: #9c1f47;
   color: #ffffff;
   position: sticky;
   top: 0;
