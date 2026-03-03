@@ -4,6 +4,7 @@
 
 - [Autum Darrell](https://github.com/BreezyAutum)
 - [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
+- [McKenna Morrison-Ripley](https://github.com/Kenna953)
 ---
 
 ## Lab Instructions
