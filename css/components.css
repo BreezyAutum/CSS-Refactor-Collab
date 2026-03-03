@@ -64,9 +64,6 @@
   transition: transform 200ms ease, box-shadow 200ms ease;
 }
 
-/* TODO: Add a hover state to .card. A small translateY(-2px) and a slightly
-   larger box-shadow gives a nice "lift" effect. You will also need to add a
-   transition to .card itself so the effect animates instead of snapping. */
 
 .card-icon {
   font-size: 2.5rem; 
