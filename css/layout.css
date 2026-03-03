@@ -11,8 +11,6 @@ body {
 }
 
 ul, ol {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -35,9 +33,7 @@ img {
   padding: 0 1.5rem;
 }
 
-/* TODO: .container--narrow is supposed to be narrower than .container so
-   that forms and text-heavy sections don't stretch too wide. Right now it
-   is identical and does nothing. Give it a smaller max-width (around 680px). */
+/* TODO: .container--narrow is supposed to be narrower than .container so that forms and text-heavy sections don't stretch too wide. Right now it is identical and does nothing. Give it a smaller max-width (around 680px). */
 
 .wrapper {
   max-width: 800px;
@@ -99,8 +95,7 @@ img {
   background-color: #ffffff;
 }
 
-.section--offwhite
-{
+.section--offwhite {
   background-color: #faf8f4;
 }
 
@@ -111,7 +106,7 @@ img {
 
 /* --- hero --- */
 
-.hero{
+.hero {
   background-color: #fdf6e3;
   /* FIXME: height clips content when the browser font size is increased or on
      small screens. Replace height with min-height and add padding so the
@@ -143,11 +138,11 @@ img {
   text-align: center;
 }
 
-.page-hero-subtitle{
+.page-hero-subtitle {
     color: #e8e4dc;
   max-width: 520px;
   margin: 0 auto;
-  }
+}
 
 /* --- card grid --- */
 
@@ -158,9 +153,7 @@ img {
   margin-top: 2rem;
 }
 
-/* TODO: The card grid has no responsive styles. On a narrow screen all three
-   columns get squeezed together. Add a media query so the grid switches to
-   one column on small screens. Try a max-width breakpoint around 700px. */
+/* TODO: The card grid has no responsive styles. On a narrow screen all three columns get squeezed together. Add a media query so the grid switches to one column on small screens. Try a max-width breakpoint around 700px. */
 
 /* --- faq --- */
 
@@ -180,17 +173,17 @@ img {
   font-size: 0.875rem;
 }
 
-    .site-footer .container {
+.site-footer .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.site-footer p{
+.site-footer p {
   margin: 0;
 }
 
-.footer-nav ul{
+.footer-nav ul {
   display: flex;
   gap: 1.5rem;
 }
