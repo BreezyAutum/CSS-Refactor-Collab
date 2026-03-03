@@ -4,12 +4,8 @@
 
 - [Autum Darrell](https://github.com/BreezyAutum)
 - [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
-<<<<<<< HEAD
 - [McKenna Morrison-Ripley](https://github.com/Kenna953)
-=======
 - [Robert Pratt] (https://github.com/ogdenkid)
->>>>>>> e985aece5f493a96bbdd7f8464cee0695e3c6db3
----
 
 ## Lab Instructions
 
