@@ -4,8 +4,8 @@
 
 - [Autum Darrell](https://github.com/BreezyAutum)
 - [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
-- [Robert Pratt] (https://github.com/ogdenkid)
----
+- [Robert Pratt](https://github.com/ogdenkid)
+- [Ashlyn Knox](https://github.com/ashx3s/) - Honourrary Member
 
 ## Lab Instructions
 
