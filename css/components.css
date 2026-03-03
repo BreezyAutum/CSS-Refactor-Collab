@@ -15,9 +15,11 @@
   cursor: pointer; 
   transition: background-color 200ms ease; 
 }
+
 .btn:focus {
   outline: none;
 }
+
 .btn:focus-visible {
   outline: 3px solid black;
 }
@@ -90,6 +92,7 @@
   flex-direction: column; 
   gap: 1.25rem; 
 }
+
 .form-group {
   display: flex; 
   flex-direction: column; 
