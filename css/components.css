@@ -103,7 +103,7 @@
 }
 
 /* shared styles for all form inputs, selects, and textareas */
-.contact-form input, .contact-form select, .contact-form textarea {
+.contact-form input, .contact-form select, .contact-form textarea, .contact-form input[type="text"], .contact-form input[type="email"]{
   width: 100%; 
   padding: 0.625rem 0.875rem; 
   font-family: "Lato", Arial, sans-serif; 
@@ -114,38 +114,6 @@
   border-radius: 4px; 
   outline: none; 
 }
-
-/* styles text inputs */
-.contact-form input[type="text"] {
-  width: 100%;
-  padding: 0.625rem 0.875rem;
-  font-family: "Lato", Arial, sans-serif;
-  font-size: 1rem;
-  color: #1e1a17;
-  background-color: #ffffff;
-  border: 1px solid #e8e4dc;
-  border-radius: 4px;
-  outline: none;
-}
-
-/* styles email inputs */
-.contact-form input[type="email"] {
-  width: 100%;
-  padding: 0.625rem 0.875rem;
-  font-family: "Lato", Arial, sans-serif;
-  font-size: 1rem;
-  color: #1e1a17;
-  background-color: #ffffff;
-  border: 1px solid #e8e4dc;
-  border-radius: 4px;
-  outline: none;
-}
-
-/* FIXME: the two rules above are identical and already covered by the shared
-   rule above them. Combine them into a single selector — or remove them
-   entirely and rely on the shared rule. Also, outline: none removes the
-   browser's focus ring with nothing to replace it — this breaks keyboard
-   accessibility. Add a :focus style with a visible border or outline instead. */
 
 .contact-form select {
   padding-right: 2.5rem; 
