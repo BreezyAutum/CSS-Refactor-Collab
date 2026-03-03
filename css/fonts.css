@@ -55,8 +55,9 @@ a :hover
   color: #a07830;
 }
 
-/* TODO: Add a :focus style for keyboard accessibility. It should use a
-   visible outline. Do not use outline: none. */
+a :focus{
+  outline: 2px solid green;
+}
 
 /* --- blockquote --- */
 
@@ -95,6 +96,7 @@ li
   margin-bottom: 0.25rem;
 }
 
-/* FIXME: .facts-list items use the default browser marker colour.
-   Change the marker colour to match the gold used elsewhere on the site (#c9a84c).
-   Look into the ::marker pseudo-element. */
+.facts-list::marker {
+  color: #c9a84c;
+}
+
